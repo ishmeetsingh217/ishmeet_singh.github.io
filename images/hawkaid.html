@@ -1,0 +1,1063 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="0;0">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 8.5in 11in; margin: 1in }
+		P { margin-bottom: 0.08in }
+		H1 { margin-top: 0.28in; margin-bottom: 0.11in; background: #ffffff; direction: ltr; line-height: 200%; page-break-inside: avoid; widows: 2; orphans: 2 }
+		H1.western { font-family: "Arial", serif; font-size: 20pt; font-weight: normal }
+		H1.cjk { font-size: 20pt; font-weight: normal }
+		H1.ctl { font-size: 20pt; font-weight: normal }
+		H2 { margin-top: 0.25in; margin-bottom: 0.11in; background: #ffffff; direction: ltr; line-height: 105%; page-break-inside: avoid; widows: 2; orphans: 2 }
+		H2.western { font-family: "Arial", serif; font-size: 14pt; font-weight: normal }
+		H2.cjk { font-family: "Arial"; font-size: 14pt; font-weight: normal }
+		H2.ctl { font-family: "Arial"; font-size: 14pt; font-weight: normal }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en" DIR="LTR">
+<P ALIGN=CENTER STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_31aqml76f6wj"></A>
+  <FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=6 STYLE="font-size: 30pt"><B>CP470:
+Android Programming</B></FONT></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=6 STYLE="font-size: 30pt">Final
+Submission</FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=7 STYLE="font-size: 32pt"><B>Hawk
+Aid</B></FONT></FONT></P>
+
+<DIV ID="Table of Contents1" DIR="LTR">
+	<P STYLE="margin-top: 0.06in; margin-bottom: 0in; line-height: 100%">
+	<BR>
+	</P>
+</DIV>
+<P STYLE="margin-top: 0.14in; margin-bottom: 0.06in; font-variant: normal; font-style: normal; line-height: 100%; text-decoration: none">
+<BR><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 200%"><BR>
+</P>
+<P STYLE="margin-left: 1in; margin-bottom: 0in; line-height: 200%"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 200%"><BR>
+</P>
+<H1 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_ton05u7g1ve9"></A>
+<FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>1.
+Introduction</B></FONT></FONT></H1>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_ytq5goey638e"></A>
+<FONT FACE="Raleway, serif"><FONT SIZE=4>1.1 Purpose</FONT></FONT></H2>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>The purpose of this document
+is to outline the requirements and functionalities of the app Hawk
+Aid, a group project developed by the project team for the Fall 2020
+CP470 class. Our main goal is to provide a minimalist
+course-note-taking application that provides all necessities in a
+very minimal fashion. Due to the pandemic occurring, a lot of
+teaching has been happening over the internet. We realized it is
+difficult for students to stay organized throughout a semester due to
+the pandemic and we also realized the current note taking apps in the
+market don’t really focus on students' needs; that’s where Hawk
+Aid comes in.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>It was created for the
+project team to reference during all development phases, as well as
+the Client, Abdul-Rahman Mawlood-Yunis.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<BR><BR>
+</P>
+<H2 CLASS="western"><A NAME="_ckq3lta6ekqh"></A><FONT FACE="Raleway, serif">1.2
+Scope</FONT></H2>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>The scope of the mobile app
+“Hawk Aid” is to help the students make notes for specific
+courses and add all their courses along with the course specific
+notes in one app. We aim to develop an app which can help students
+create notes all in just one app and refer back to them whenever they
+want. People of all ages can use Hawk Aid to save their important
+notes.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Hawk Aid will provide a
+minimalistic view for taking course-notes, organizing notes,
+preparing for tests/exams while also reminding you for your next
+up-coming deadline to avoid any penalties. Essentially, Hawk Aid is a
+minimalistic course-based notes app that entirely focuses on
+course-related note-taking.</FONT></FONT></P>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_hi6b8drwgbgr"></A>
+<FONT FACE="Raleway, serif">1.3 Stakeholders</FONT></H2>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Hawk Aid is designed to aid
+people that consider themselves as disorganized. This application
+will keep track of your course notes and send you timely reminders to
+keep you on track. Students will be able to increase their
+productivity through the use of this app. They will be able to better
+organize their notes, maintain due dates and other course work. Hawk
+Aid will allow students to add courses and maintain an efficient
+record of their course content. Teachers will also be able to make
+use of this application to keep their course content organized.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_446907bafioh"></A>
+<FONT FACE="Raleway, serif">1.4 Inspiration </FONT>
+</H2>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>We as students find it
+difficult to keep notes for every specific course organized and
+maintain our deadlines. There was a need for an android app that can
+keep an organized record of all of our course content at one place to
+be able to refer back to as well as remind us for any  upcoming
+deadlines. </FONT></FONT>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Also, as stated above, due
+to the recent pandemic we had a new motive to create an App that will
+not only change the way you take notes but also to stay productive
+and ahead of your courses by having your syllabus by your side and
+having some friendly reminders for any up-coming due dates and
+deadlines!</FONT></FONT></P>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_2cjm14ut7qqt"></A>
+<FONT FACE="Raleway, serif">1.5 Overview</FONT></H2>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Hawk Aid is designed to make
+students’ lives easier. Students will be able to view all of their
+course notes and its contents on one device. Hawk Aid will alert
+students of the upcoming due date to avoid delay in submissions. It
+will maintain an efficient record of each student, their course work
+and their reminders.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+ 
+</P>
+<H1 CLASS="western"><A NAME="_yqp98pqxjttn"></A><FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>2.
+Description</B></FONT></FONT></H1>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_6f8a816qmb5v"></A>
+<FONT FACE="Raleway, serif">2.1 Product Perspective</FONT></H2>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Hawk Aid is an android app
+that will be created to help students organise their notes at one
+place. As shown in the screenshots, it’s an app which allows
+students to add their courses and start creating / viewing notes
+intended for that course; it also provides the course related
+information such as due dates and exam days, etc. Students can add /
+remove their courses whenever needed and it will also have the
+stability to remind students to start preparing for any up-coming
+tests and quizzes (Whether the specific entry is added to the
+Calendar or not for reminder purposes). Overall, it will be a nice
+clean and simplistic App intended for students without all the extra
+notification; simplistically and aesthetically pleasing is what we
+are aiming for.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<BR><BR>
+</P>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_4108rukn5bg"></A>
+<FONT FACE="Raleway, serif">2.2 Product Features</FONT></H2>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=4>Product on release should be
+able to:</FONT></FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Unique
+	take on student course management via phone </FONT></FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Implementing
+	damage control against accidental user errors (accidental deletion)</FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Using
+	sharedpreferences to alter some settings</FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Providing
+	backup/restore feature</FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Ability
+	to produce crash log in case of app crash so we know where the
+	problem occured </FONT></FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Using
+	recyclerview, highly specialized and complex form of list display</FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Able
+	to take pictures of notes &amp; store in app</FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Notes
+	provide utility to add special chars like TAB, bullet points on the
+	go </FONT></FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><FONT SIZE=3>Highlight
+	features in notes where highlighted things in notes pertaining to
+	each subject will be stored in a special file, sort of like more
+	concentrated notes</FONT></FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<BR><BR>
+</P>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_i436h1snks10"></A>
+<FONT FACE="Raleway, serif">2.3 User characteristics</FONT></H2>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Main
+Target: </B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>High
+School/College/University going students </FONT></FONT>
+</P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Age
+Group:</B></FONT></FONT></FONT><FONT COLOR="#ff00ff"><FONT FACE="Raleway, serif"><FONT SIZE=3>
+</FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>6+
+(students)</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Gender:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Gender
+will not play a role in deciding users for the app.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Language:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>
+English / Hindi</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Education-Level:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>
+Application will be available to users of any education level. It is
+helpful for students that make a lot of notes while studying.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Physical
+Limitations:</B></FONT></FONT></FONT><FONT COLOR="#ff0000"><FONT FACE="Raleway, serif"><FONT SIZE=3>
+</FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Anybody
+that has access to an android phone will be able to use it.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Prior
+Knowledge:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>
+Watching the tutorial on how to use the app to add notes, highlight
+text, change font size etc..</FONT></FONT></P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.11in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Frequency
+of Use:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>
+Users can use the Hawk Aid app daily to work on their notes for
+classes and refer back to them during exam times.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<H2 CLASS="western" STYLE="background: #ffffff; line-height: 105%"><A NAME="_n6edvkj9ne76"></A>
+ <FONT FACE="Raleway, serif">2.4 Assumptions and Dependencies</FONT></H2>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Assuming
+	the user has stable internet connection</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Assuming
+	the user has storage available on their device to record data</FONT></P>
+</UL>
+<H2 CLASS="western"><A NAME="_nki1vwb7lj6h"></A><FONT FACE="Raleway, serif">2.5
+Structure </FONT>
+</H2>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3><B>** All activities can by
+default be called by child activity onDestroy() &amp;
+onBackPressed().</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>MainActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Shows list
+of added courses.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>	Called by:Application
+launch</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>	Calls : AddCourseActivity,
+Application launch</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>AddCourseActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>prompts to
+add a course.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3><B>	</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Called
+by: MainActivity</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>	Calls: FileUtilities</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>ViewCourseActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Shows
+specific course options.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by: MainActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>AddNoteActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Prompts to
+add a note to a specific course.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by: ViewNotesActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Calls: FileUtilities</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>ViewNotesActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Shows a
+list of notes currently in a specific course folder.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by:
+ViewCourseActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Calls: ViewNoteActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>ViewInfoActivity:
+</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Shows
+course info syllabus pointers, general due dates, miscellaneous
+notes, etc for a specific course. allows editing of certain info.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by:
+ViewCourseActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Calls: FileUtilities</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>ViewNoteActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>shows a
+specific note and allows you to edit the note.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by: ViewNotesActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Calls: FileUtilities</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>SettingsActivity:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>shows
+settings options, able to change some settings.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by: MainActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Calls: HelpPageActivity /
+CrashReportsActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>HelpPageActivity:
+</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>shows
+instructions to the front end user.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by: SettingsActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>CrashReportsActivity:
+</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>shows
+list of crashes &amp; cause, able to clear all generated logs.</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Called by: SettingsActivity</FONT></FONT></P>
+<P STYLE="text-indent: 0.5in; margin-bottom: 0in; background: #ffffff; line-height: 105%">
+<FONT FACE="Raleway, serif"><FONT SIZE=3>Calls: FileUtilities</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_n8t9yes80imf"></A>
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_glcibj72dly"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>	</B></FONT></FONT><FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>FileUtilities:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>manages
+file I/O using background task management interface.</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: 0.43in; margin-right: -0.07in; text-indent: 0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_itvmm5pyc62q"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>Called
+by: MainActivity / ViewCourseActivity / ViewNoteActivity</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_pbac0m112wc"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>		Calls:
+Java libraries</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_kv059ovdeyeh"></A>
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_wdpklzpkes1t"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT COLOR="#9900ff"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>App
+directory structure:</B></FONT></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3><B>
+</B></FONT></FONT><FONT FACE="Raleway, serif"><FONT SIZE=3>Using
+default getFilesDir() directory</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_ze4xqcskzdyf"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>		+
+Courses - directory</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_ux4ym5brlube"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>			+
+Course(s) - directory - each Course is a directory of its own</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_dai69a2a2n65"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>				naming_pattern
+- &quot;courseCode: courseName&quot;</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_ap0ahtsmkvbu"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>				+
+info - file - contains info on course</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_nzv5qcdpjsho"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>				naming_pattern
+- info</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_i2wqay7od13g"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>				+
+note(s) - file - each note is a file on its own</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_pgcycagpjd96"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>				naming_pattern
+- &quot;noteTitle&quot;</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_f1h61q6m2iap"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>		+
+logs - directory</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_g4bj6r3s6fp"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>			+
+crash_log(s) - file - each crash log is a file on its own</FONT></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-left: -0.07in; margin-right: -0.07in; margin-bottom: 0in; line-height: 100%; page-break-inside: avoid; widows: 2; orphans: 2; page-break-after: avoid"><A NAME="_tbaq9nygzxnk"></A>
+<FONT SIZE=6 STYLE="font-size: 26pt"><FONT FACE="Raleway, serif"><FONT SIZE=3>			naming_pattern
+- &quot;new Date().toString()&quot;: at time of log creation</FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 200%"><BR>
+</P>
+<H1 CLASS="western"><A NAME="_mor4fmkyh8oa"></A><FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>3.
+Specific Requirements</B></FONT></FONT></H1>
+<H2 CLASS="western"><A NAME="_rw3j7xsmj7a7"></A><FONT FACE="Raleway, serif">3.1
+Functional Requirements</FONT></H2>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Hawk Aid
+provides several services:</FONT></P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Courses
+	view</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Information
+	about the course is added by the user, the data includes course
+	name, course code, course syllabus </FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Course
+	id and course name is a mandatory field when creating a new course</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">A
+	course can be deleted in future by the user</FONT></P>
+</UL>
+<OL START=2>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Notes</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Content
+	of the note is to be written by the user</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	are able to edit/remove any note of their choice</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">The
+	title of the note is a mandatory field when creating a new note</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Notes
+	will keep a record of date and time when created for future
+	reference</FONT></P>
+</UL>
+<OL START=3>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Reminders</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Reminders
+	are to be created by the user as needed</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">It
+	will alert users at specified time</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	are required to enter a title/name of the reminder along with date
+	and time upon creation</FONT></P>
+</UL>
+<OL START=4>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Backup</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Backup
+	will be used by to user to transfer all of their course content in
+	case of phone transfer</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	are expected to create a backup file at their desired location
+	through backup functionality of the app before deletion of any
+	course content</FONT></P>
+</UL>
+<OL START=5>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Restore</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Restore
+	will be used by to user to retrieve all of their course content in
+	case of phone transfer</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	are expected to already have a backup file ready for recovery</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	will choose the backup file they wish to recover</FONT></P>
+</UL>
+<H2 CLASS="western"><A NAME="_tgwj9jwrgjmj"></A><FONT FACE="Raleway, serif">3.2
+System Requirements</FONT></H2>
+<OL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">General</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	are able to create multiple courses, notes and reminders</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">The
+	information is to be stored and pulled from the realm database, then
+	to be displayed is well organized structure internally</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">User’s
+	device is expected to have stable internet connection and have
+	plenty internal storage available</FONT></P>
+</UL>
+<OL START=2>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Courses/Notes</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">All
+	the course data including notes will be pulled and loaded initially
+	upon app startup</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">The
+	courses are to be displayed in a user friendly way</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Notes
+	are to be found inside its designated course for an organized layout
+	</FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Creation
+	of new course and its notes are to be add to the realm database as
+	well</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Upon
+	deletion, realm database is to be updated accordingly</FONT></P>
+</UL>
+<OL START=3>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Reminder</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Reminders
+	are to be loaded during the startup phase of the application</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">They
+	will be display in the order of their creation</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Each
+	reminder is displayed with its creation date and time, title and
+	description</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Creation
+	of a new reminder and deletion of a reminder updates the database
+	accordingly </FONT>
+	</P>
+</UL>
+<OL START=4>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Backup/Restore</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	are expected to manually create a backup file for future reference
+	before removal of any data</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Backup
+	file are to be stored internally, size of the file varies, depending
+	on the size of date chosen for backup (courses, notes, reminders)</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Users
+	must have sufficient availability of internal storage to support
+	their backup file</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Existence
+	of backup file is required in-order to restore data (course, notes,
+	reminder) through Restore functionality</FONT></P>
+</UL>
+<H2 CLASS="western"><A NAME="_xoojpj3s3zcf"></A><FONT FACE="Raleway, serif">3.3
+Non-Functional Requirements</FONT></H2>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Viewable
+	on android mobile devices</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Easy
+	to reuse for different school terms</FONT></P>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif">Customizable
+	to each user’s specific needs (various classes/notes/reminders)</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<H1 CLASS="western"><A NAME="_6q25rtgany9d"></A><FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>4.
+Object-Oriented Analysis</B></FONT></FONT></H1>
+<H2 CLASS="western"><A NAME="_3vz2blr58s8q"></A><FONT FACE="Raleway, serif">4.1
+Sequence Diagrams</FONT></H2>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Raleway, serif"><B>Student
+Use Case Diagram:                             Admin Use Case Diagram:</B></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><IMG SRC="491cfc26e1723df693cf5948e2ab0adb_html_46833b6e.png" NAME="image5.png" ALIGN=LEFT HSPACE=12 VSPACE=12 WIDTH=253 HEIGHT=196 BORDER=0><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><IMG SRC="491cfc26e1723df693cf5948e2ab0adb_html_1e597938.png" NAME="image4.png" ALIGN=BOTTOM HSPACE=12 VSPACE=12 WIDTH=216 HEIGHT=369 BORDER=0></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<H1 CLASS="western"><A NAME="_bi9iu8fq37i1"></A><FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>5.
+Use Cases</B></FONT></FONT></H1>
+<H2 CLASS="western"><A NAME="_tqma4pqnisoh"></A><FONT FACE="Raleway, serif">5.1
+Cases </FONT>
+</H2>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=623 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=161>
+	<COL WIDTH=432>
+	<TR>
+		<TD COLSPAN=2 WIDTH=607 HEIGHT=17 VALIGN=TOP STYLE="border: 1.00pt solid #000001; padding: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Import
+			CourseSyllabus </B></FONT></FONT>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Actors</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Student</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Description</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">A
+			student may import their current course syllabus into Hawk Aid.
+			This will provide quick and easy access to the import dates,
+			topics and description of the course.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Data</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Student’s
+			course syllabus.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Stimulus</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Entering
+			a link to the course syllabus.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Response</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">A series
+			of events is created, it records location to the syllabus and
+			provides quick access to it.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=39 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Comments</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding: 0in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Without
+			access to Laurier’s database. Students must provide a link to
+			their course syllabus.</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=623 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=161>
+	<COL WIDTH=432>
+	<TR>
+		<TD COLSPAN=2 WIDTH=607 HEIGHT=17 VALIGN=TOP STYLE="border: 1.00pt solid #000001; padding: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Add/Remove
+			Course</B></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Actors</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Student</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=55 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Description</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">A
+			student may alter their courses in Hawk Aid. This includes the
+			ability to add new courses, as well as remove any existing course.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Data</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Course
+			code and Course Title</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Stimulus</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Clicking
+			either “+” icon at home page or “Delete Course” button on
+			the course page</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Response</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">An event
+			is able to be created/deleted</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=35 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Comments</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Students
+			are able to backup their data before deleting their course(s).</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=623 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=161>
+	<COL WIDTH=432>
+	<TR>
+		<TD COLSPAN=2 WIDTH=607 HEIGHT=17 VALIGN=TOP STYLE="border: 1.00pt solid #000001; padding: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Add/Edit/Remove
+			Notes</B></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Actors</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Student</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=55 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Description</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">A
+			student may alter their course notes in Hawk Aid. This includes
+			the ability to add new notes, as well as edit and remove any
+			existing course note.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Data</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Title of
+			the note</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Stimulus</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Clicking
+			either the “+” icon found at the course page, or “x”
+			delete button on the note listed, or tapping on the note title to
+			edit its content.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Response</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">An
+			series of events are able to create a new note and recording its
+			creation date and time, edit and change the existing note content,
+			and delete a note</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=35 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Comments</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Students
+			are able to backup their data before deleting their note(s).</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=623 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=161>
+	<COL WIDTH=432>
+	<TR>
+		<TD COLSPAN=2 WIDTH=607 HEIGHT=17 VALIGN=TOP STYLE="border: 1.00pt solid #000001; padding: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Add/Remove
+			Reminders</B></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Actors</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Student</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=55 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Description</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">A
+			student may alter their reminders in Hawk Aid. This includes the
+			ability to add new reminders, as well as remove any existing
+			reminders.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Data</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Reminder
+			title, date and time.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Stimulus</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Clicking
+			either “+” icon on the reminders page.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Response</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">An event
+			is able to create/delete reminders</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=35 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Comments</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Students
+			are able to backup their data before deleting their reminders.</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=623 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=161>
+	<COL WIDTH=432>
+	<TR>
+		<TD COLSPAN=2 WIDTH=607 HEIGHT=17 VALIGN=TOP STYLE="border: 1.00pt solid #000001; padding: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><FONT SIZE=3><B>Backup/Restore</B></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Actors</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Student</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=55 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Description</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Students
+			are able to backup their course contents and reminders, as well as
+			restore any previously backed up files.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Data</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">No data
+			required.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Stimulus</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Clicking
+			either “Backup” or “Restore” button on the settings page.</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=18 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Response</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">An event
+			creates a backup file and/or restore data from a backup up</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=161 HEIGHT=35 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0.07in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif"><B>Comments</B></FONT></P>
+		</TD>
+		<TD WIDTH=432 BGCOLOR="#ffffff" STYLE="border-top: none; border-bottom: 1.00pt solid #000001; border-left: none; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.07in; padding-left: 0in; padding-right: 0.07in">
+			<P STYLE="margin-top: 0.17in"><FONT FACE="Raleway, serif">Students
+			are able to backup their data before deleting their course content
+			and reminders.</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<H1 CLASS="western"><A NAME="_jlmqndftyxo0"></A><FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>6.
+How to Use Guide</B></FONT></FONT></H1>
+<H2 CLASS="western"><A NAME="_3x25fvi2465b"></A><FONT FACE="Raleway, serif">6.1
+Guide 101</FONT></H2>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><FONT FACE="Raleway, serif"><FONT SIZE=3>Users
+can easily add courses with just a Tap on the “+” icon on the top
+right corner. Then they will be prompted to add course code and
+course title. Once Users have completed creating their courses, they
+can then open the specified course page through tapping on their
+desired course. There they will be provided with three options: View
+Course Information, View Course Notes, and Delete Course.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><FONT FACE="Raleway, serif"><FONT SIZE=3>View
+Course Information is a place where users are able to upload their
+course syllabus for easy access. Inorder to upload their course
+syllabus , users are to first open the View Course Information page
+through their desired course, then tap the “+” icon to add a link
+to their course syllabus.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><FONT FACE="Raleway, serif"><FONT SIZE=3>View
+course notes is a place for users to add and view their notes for the
+course. Notes in here will contain a timestamp as a reminder of when
+it had been created. Users in here are able to view their notes by
+simply selecting the note they wish to view or edit. They also have
+the option to delete their notes by simply clicking on the red “x”
+found on the right side of each note. </FONT></FONT>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><FONT FACE="Raleway, serif"><FONT SIZE=3>Delete
+course button is used to delete the specified course. In order to
+successfully delete a course, users must briefly tap and hold the
+delete button. There then they will be prompted with a confirmation
+popup where users will  be asked to type in “DELETE” to proceed.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><FONT FACE="Raleway, serif"><FONT SIZE=3>Users
+are able to add reminders through the home page. Users can simply tap
+on the bell icon where they will be taken to a reminders page that
+contains all of their previous reminders. To set a new reminder,
+simply tap on the “+” icon on the top right corner of the
+reminders page. There they will be prompted with a popup requesting
+details about your reminder.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 100%"><FONT FACE="Raleway, serif"><FONT SIZE=3>Users
+are able to back and restore their course information through the
+settings. To save a backup, tap on the gear icon found on the top
+right corner of the home page. There users will be provided with
+three options: help, backup and restore. Help button contains another
+“How To Use Guide” that users can refer back to if needed. Back
+button will prompt the user with a confirmation dialog and then have
+them choose their desired location to store their backup. Restore
+button will enable users to choose a backup file from their device
+and restore their course data.</FONT></FONT></P>
+<H1 CLASS="western" STYLE="line-height: 200%"><A NAME="_oqa29jd7z7xh"></A>
+<FONT FACE="Raleway, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>7.
+Interfaces / Output</B></FONT></FONT></H1>
+<H2 CLASS="western"><A NAME="_6jjv7y8c8sg"></A><FONT FACE="Raleway, serif">7.1
+Activity Structure</FONT></H2>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in; line-height: 200%">      
+<IMG SRC="491cfc26e1723df693cf5948e2ab0adb_html_e3a9ed4e.gif" NAME="image2.gif" ALIGN=BOTTOM HSPACE=12 VSPACE=12 WIDTH=249 HEIGHT=500 BORDER=0></P>
+
+</H1>
+</BODY>
+</HTML>
